@@ -8,7 +8,7 @@ on:
 jobs:
   deploy-to-cml:
     runs-on: ubuntu-latest
-    steps:
+    steps: 
       - name: Install Dependencies
         run: |
           sudo apt-get update
